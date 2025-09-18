@@ -1,6 +1,7 @@
 import pinkRose from './assets/pink-rose.svg'
- import './fonts/Borel-Regular.ttf';
+import './fonts/Borel-Regular.ttf';
 import './App.css'
+import Countdown from './components/Countdown';
 
 function App() {
 
@@ -12,10 +13,10 @@ function App() {
           <h1>Coming Soon</h1>
           <img src={pinkRose} className="pink-rose" alt="Second rose" />
           </div>
-          <h3>12.1.2025</h3>
+          <h3 className='date'>12.1.2025</h3>
           
       <div className="countdown">
-
+        <Countdown/>
       </div>
       <h3 className="read-the-docs">
         for the girl i love most
