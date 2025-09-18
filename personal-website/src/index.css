@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'romantic-font';
+  src: local('romantic-font'), url(./fonts/Borel-Regular.ttf) format('truetype');
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -31,8 +36,16 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: 'romantic-font';
+  font-size: 3.0em;
+  line-height: 2.75;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'romantic-font';
+  font-size: 1.5em;
+  line-height: 0;
 }
 
 button {

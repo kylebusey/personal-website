@@ -5,6 +5,15 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section {
+  display: flex;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -41,10 +50,12 @@
   }
 }
 
-.card {
+.countdown {
   padding: 2em;
 }
 
 .read-the-docs {
+  font-size: 15px;
   color: #888;
+
 }
